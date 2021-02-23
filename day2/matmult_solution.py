@@ -29,7 +29,7 @@ def multiplyMatrices():
         # iterate through rows of Y
         		for k in range(len(Y)):
             			result[i][j] += X[i][k] * Y[k][j]
-#line 30 and 31 should be optimzed
+
 	return result
 
 # for r in result:

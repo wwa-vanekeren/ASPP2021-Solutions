@@ -1,0 +1,6 @@
+3. Profiling
+a) Profiling of the code shows that matrix multiplications are the most time consuming steps (line 26 and 27 of the original matmult.py file).
+   The lines at which appending is applied are most memory consuming (line 10, 15 and 20).
+b) Lines 10, 11, 13, 25, 26, 29 could be optimized since they are time consuming, but especially line 53 contributes (the factorize function) should be optimized.
+   This line also is most memory consuming.
+c) Applying numpy improves the code approximatly 100fold.

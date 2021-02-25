@@ -1,0 +1,12 @@
+a)
+wesva399@ang-kemi1291 MINGW64 ~/python_course/aspp2021_solutions/day4 (master)
+$ mpiexec -n 5 python mpi_ranks.py
+Hello World from process 1
+Hello World from process 2
+Hello World from process 3
+Hello World from process 4
+Hello World from process 0
+
+b)
+Output: 
+Sum of ranks: 0.0
